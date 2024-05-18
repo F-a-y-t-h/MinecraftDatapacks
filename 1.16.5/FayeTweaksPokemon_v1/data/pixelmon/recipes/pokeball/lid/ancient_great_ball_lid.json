@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "pixelmon:apricorns"
+    },
+    {
+      "item": "pixelmon:tumblestone"
+    },
+    {
+      "item": "pixelmon:tumblestone"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:poke_ball_lid",
+    "count": 5,
+    "nbt": {
+      "PokeBallID": "ancient_great_ball"
+    }
+  }
+}

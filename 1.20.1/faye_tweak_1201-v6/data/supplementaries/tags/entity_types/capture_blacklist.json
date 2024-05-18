@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"doggytalents:dog","required":false},
+    {"id":"minecolony:*","required":false}
+  ]
+}
+

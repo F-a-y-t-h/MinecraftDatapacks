@@ -1,0 +1,10 @@
+{
+    "mod": "create",
+    "block_tools": [
+        {
+            "createaddition": [
+                "create:wrench"
+            ]
+        }
+    ]
+}

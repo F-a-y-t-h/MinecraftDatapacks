@@ -1,0 +1,72 @@
+{
+  "type": "forge:conditional",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/silver",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": {
+            "tag": "forge:ingots/lead",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "ingredient": {
+          "item": "oreberriesreplanted:silver_oreberry"
+        },
+        "result": {
+          "fluid": "tconstruct:molten_silver",
+          "amount": 16
+        },
+        "temperature": 790,
+        "time": 9,
+        "byproducts": [
+          {
+            "fluid": "tconstruct:molten_lead",
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "conditions": [
+        {
+          "value": {
+            "tag": "forge:ingots/gold",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "ingredient": {
+          "tag": "forge:ores/silver"
+        },
+        "result": {
+          "fluid": "tconstruct:molten_silver",
+          "amount": 16
+        },
+        "temperature": 790,
+        "time": 9,
+        "byproducts": [
+          {
+            "fluid": "tconstruct:molten_gold",
+            "amount": 5
+          }
+        ]
+      }
+    }
+  ]
+}

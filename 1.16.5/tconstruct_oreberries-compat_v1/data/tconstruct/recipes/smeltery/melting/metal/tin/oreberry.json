@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:ore_melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/tin",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "item": "oreberriesreplanted:tin_oreberry"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_tin",
+    "amount": 16
+  },
+  "temperature": 225,
+  "time": 6,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_copper",
+      "amount": 6
+    }
+  ]
+}

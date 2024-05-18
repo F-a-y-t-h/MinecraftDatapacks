@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:ore_melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/aluminum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "item": "oreberriesreplanted:aluminum_oreberry"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_aluminum",
+    "amount": 16
+  },
+  "temperature": 425,
+  "time": 7,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_iron",
+      "amount": 6
+    }
+  ]
+}

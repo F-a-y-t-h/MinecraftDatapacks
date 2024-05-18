@@ -1,0 +1,63 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": {
+            "tag": "forge:ingots/nickel",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "ingredient": {
+           "item": "oreberriesreplanted:iron_oreberry"
+        },
+        "result": {
+          "fluid": "tconstruct:molten_iron",
+          "amount": 16
+        },
+        "temperature": 800,
+        "time": 9,
+        "byproducts": [
+          {
+            "fluid": "tconstruct:molten_nickel",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "conditions": [
+        {
+          "value": {
+            "tag": "forge:ingots/copper",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "ingredient": {
+          "tag": "forge:ores/iron"
+        },
+        "result": {
+          "fluid": "tconstruct:molten_iron",
+          "amount": 16
+        },
+        "temperature": 800,
+        "time": 9,
+        "byproducts": [
+          {
+            "fluid": "tconstruct:molten_copper",
+            "amount": 6
+          }
+        ]
+      }
+    }
+  ]
+}

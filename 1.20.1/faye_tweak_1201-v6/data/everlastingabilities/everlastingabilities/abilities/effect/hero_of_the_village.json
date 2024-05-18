@@ -1,0 +1,9 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "Hero of the Village",
+  "rarity": "epic",
+  "max_level": 5,
+  "xp_per_level": 1000,
+  "effect": "minecraft:hero_of_the_village"
+}

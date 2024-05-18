@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"rats:tamed_rat","required":false},
+    {"id":"minecraft:wolf","required":false},
+    {"id":"earthmobsmod:skeleton_wolf","required":false},
+    {"id":"earthmobsmod:wither_skeleton_wolf","required":false},
+    {"id":"productivebees:configurable_bee","required":false},
+    {"id":"the_bumblezone:variant_bee","required":false},
+    {"id":"productivebees:bumble_bee","required":false},
+    {"id":"the_bumblezone:beehemoth","required":false}
+	
+  ]
+}
+

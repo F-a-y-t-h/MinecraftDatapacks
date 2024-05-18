@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:ore_melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/osmium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "item": "oreberriesreplanted:osmium_oreberry"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_osmium",
+    "amount": 16
+  },
+  "temperature": 975,
+  "time": 9,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_iron",
+      "amount": 5
+    }
+  ]
+}

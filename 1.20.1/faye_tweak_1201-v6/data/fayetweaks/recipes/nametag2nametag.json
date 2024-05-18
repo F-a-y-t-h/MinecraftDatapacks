@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:name_tag"
+        }
+    ],
+    "result": {
+        "item": "minecraft:name_tag",
+        "count": 1
+    }
+}

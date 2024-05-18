@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"rats:tamed_rat","required":false},
+    {"id":"productivebees:configurable_bee","required":false},
+    {"id":"the_bumblezone:variant_bee","required":false},
+    {"id":"productivebees:bumble_bee","required":false},
+    {"id":"productivebees:green_carpenter_bee","required":false},
+    {"id":"productivebees:yellow_black_carpenter_bee","required":false},
+    {"id":"productivebees:mason_bee","required":false},
+    {"id":"productivebees:sweat_bee","required":false},
+    {"id":"productivebees:resin_bee","required":false},
+    {"id":"productivebees:ashy_mining_bee","required":false},
+    {"id":"productivebees:chocolate_mining_bee","required":false},
+    {"id":"productivebees:neon_cuckoo_bee","required":false},
+    {"id":"the_bumblezone:beehemoth","required":false}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "mod": "astralsorcery",
+	"replace": true,
+    "block_tools": [
+        {
+            "blocks": [
+                "astralsorcery:altar_discovery",
+                "astralsorcery:altar_attunement",
+                "astralsorcery:altar_exploration",
+                "astralsorcery:altar_consteliation",
+                "astralsorcery:altar_radiance",
+                "astralsorcery:infuser"
+            ],
+            "tools": [
+                "astralsorcery:wand"
+            ]
+        },
+        {
+            "blocks": [
+                "astralsorcery:celestial_collector_crystal",
+                "astralsorcery:rock_collector_crystal",
+                "astralsorcery:prism",
+                "astralsorcery:lens"
+            ],
+            "tools": [
+                "astralsorcery:linking_tool"
+            ]
+        },
+        {
+            "blocks": [
+                "astralsorcery:ritual_pedestal"
+            ],
+            "tools": [
+                "astralsorcery:resonator"
+            ]
+        }
+    ]
+}

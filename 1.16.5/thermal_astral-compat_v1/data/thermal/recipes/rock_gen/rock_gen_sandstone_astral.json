@@ -1,0 +1,8 @@
+{
+  "type": "thermal:rock_gen",
+  "adjacent": "astralsorcery:liquid_starlight",
+  "below": "minecraft:magma_block",
+  "result": {
+    "item": "minecraft:sandstone"
+  }
+}

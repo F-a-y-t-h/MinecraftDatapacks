@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "fluidTag": "forge:honey",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "productivebees:honey_treat"
+    }
+  ]
+}

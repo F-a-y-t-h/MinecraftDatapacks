@@ -12,3 +12,11 @@ Resource Chickens - replaces the basic chicken by default pretending other mods 
 TaxFreeLevels - no configuration for setting makes it not play well with easy anvil
 CapsuleCorp - clunky usage; should really rework to use the bundle system
 FuelCanister - need to be blacklisted from many omni-'repair' mods; can be completely consumed by many mods; (todo; check if manually adding it to immersive_aircraft's fuel lists will work correctly)
+
+
+
+modconflicts w/ biggerstacks
+sosifcatied storage - compacting upgrade dosnt play well at all
+storage drawers - minor; voids items higher then max 
+nabba - kicked out exess items when attempting to interact
+function storage - kick out extra items when attempting to interact
